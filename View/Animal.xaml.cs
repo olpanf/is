@@ -12,17 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfApp7.ViewModel;
 
-namespace WpfApp7
+namespace WpfApp7.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Логика взаимодействия для Animal.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Animal : Page
     {
-        public MainWindow()
+        public Animal()
         {
             InitializeComponent();
+            DataContext = new ProductsOtobrViewModel(this);
         }
     }
 }

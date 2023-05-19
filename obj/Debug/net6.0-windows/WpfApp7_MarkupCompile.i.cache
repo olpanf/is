@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 D:\C# Projects\WpfApp7\App.xaml
-11407045341
+5-1507996968
 
-5359723708
+16500092416
 194-200944676
-MainWindow.xaml;
+View\Animal.xaml;View\MainWindow.xaml;View\Milk.xaml;View\ProductsWindow.xaml;View\Sigaret.xaml;
 
 False
 
